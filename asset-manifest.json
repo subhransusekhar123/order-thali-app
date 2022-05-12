@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/order-thali-app/static/css/main.ea67350d.css",
+    "main.js": "/order-thali-app/static/js/main.504cf732.js",
+    "index.html": "/order-thali-app/index.html",
+    "main.ea67350d.css.map": "/order-thali-app/static/css/main.ea67350d.css.map",
+    "main.504cf732.js.map": "/order-thali-app/static/js/main.504cf732.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea67350d.css",
+    "static/js/main.504cf732.js"
+  ]
+}
