@@ -5,7 +5,7 @@ import { getData , addQuantity,minusQuantity,calculateTotal} from "../orderSlice
 const Card = (props) => {
     const dispatch = useDispatch()
    const{thaliItem,price,image} = props.ele;
-   const [quantity,setQuantity] = useState(0);
+   const [quantity,setQuantity] = useState(0);//state for quantity
    const addHandler = () =>{
        setQuantity(quantity + 1)
        

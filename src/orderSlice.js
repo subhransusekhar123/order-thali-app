@@ -42,10 +42,12 @@ export const orderSlice = createSlice({
         deleteItem:(state,action)=>{
             state.orderedItem.splice(action.payload,1)
         },
+        
         addQuantity:(state,action)=>{
             state.orderedItem[action.payload].quantity = state.orderedItem[action.payload].quantity + 1;
             state.orderedItem[action.payload].totalQuantityPrice = state.orderedItem[action.payload].price * state.orderedItem[action.payload].quantity
         },
+
         minusQuantity:(state,action)=>{
             state.orderedItem[action.payload].quantity = state.orderedItem[action.payload].quantity - 1;
             state.orderedItem[action.payload].totalQuantityPrice = state.orderedItem[action.payload].price * state.orderedItem[action.payload].quantity
